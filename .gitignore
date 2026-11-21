@@ -1,0 +1,31 @@
+# 虚拟环境
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# 本地密钥与配置（绝不提交）
+.env
+.env.local
+
+# 本地模型权重
+models/
+*.safetensors
+*.bin
+
+# 课程语料与数据库导出（版权与体积原因不入库）
+data/*
+!data/.gitkeep
+
+# 编辑器与日志
+.vscode/
+.idea/
+*.log
